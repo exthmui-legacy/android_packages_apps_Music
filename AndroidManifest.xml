@@ -37,7 +37,7 @@
             android:launchMode="singleTop"
             android:requestLegacyExternalStorage="true">
 
-        <activity android:name="AudioPreview" android:theme="@android:style/Theme.Dialog"
+        <activity android:name="org.exthmui.music.ExthmAudioPreview" android:theme="@style/Theme.ExthmUI.AudioPreview"
                   android:taskAffinity=""
                   android:excludeFromRecents="true" android:exported="true" >
             <intent-filter>
